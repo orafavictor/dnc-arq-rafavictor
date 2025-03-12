@@ -1,0 +1,62 @@
+.button {
+    border-radius: 18px;
+    border: none;
+    column-gap: 10px;
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 50px;
+    transition: background-color 0.3s ease;
+}
+
+/* Primary */
+
+.button.primary {
+    background-color: #0c70f2;
+    color: #FFFFFF;
+}
+
+.button.primary:hover {
+    background-color: #0056b3;
+}
+
+/* Secondary */
+
+.button.secondary {
+    background-color: #1d1d1d;
+    color: #FFFFFF;
+}
+
+.button.secondary:hover {
+    background-color: #4d5053;
+}
+
+/* Outline */
+
+.button.outline {
+    background-color: white;
+    color: #0c70f2;
+    border: 2px solid #0c70f2;
+}
+
+.button.outline:hover {
+    background-color: #0c70f2;
+    color: white;
+}
+
+/* Unstyled */
+.button.unstyled {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+/* Disable */
+
+.button:disabled, button:disabled>:hover {
+    background-color: #ccc;
+    color: #666;
+    pointer-events: none;
+}

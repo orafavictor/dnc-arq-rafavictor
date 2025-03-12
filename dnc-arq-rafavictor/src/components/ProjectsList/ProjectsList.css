@@ -1,0 +1,54 @@
+.projectsSection {
+    margin: 150px 0;
+    text-align: center;
+}
+
+.projectsHero {
+    margin: 0 auto 100px auto;
+    max-width: 767px;
+}
+
+.projectsHero h2 {
+    font-size: 50px;
+}
+
+.projectsHero p {
+    font-size: 22px;
+    margin: 10px 0 0 0;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px 22px;
+}
+
+.projectCard .thumb {
+    background-position: center;
+    background-size: cover;
+    border-radius: 37px;
+    height: 430px;
+    width: 100%;
+}
+
+.projectCard h3 {
+    font-size: 25px;
+    margin: 20px 0 0 0;
+}
+
+.projectCard p {
+    font-size: 18px;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .projectsGrid {
+        grid-template-columns: repeat(2, 1fr);
+     }
+ }
+ 
+ @media (max-width: 568px) {
+    .projectsGrid {
+        grid-template-columns: 1fr;
+     }
+  }

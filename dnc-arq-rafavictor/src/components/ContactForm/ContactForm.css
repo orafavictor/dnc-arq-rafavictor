@@ -1,0 +1,25 @@
+.contactForm {
+    margin: 160px auto;
+    max-width: 797px;
+    text-align: center;
+    width: 100%;
+}
+
+.contactForm h2 {
+    font-size: 50px;
+}
+
+.contactForm form {
+    margin: 40px 0 0 0;
+    width: 100%;
+}
+
+.contactForm p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.contactForm .formGroup {
+    column-gap: 39px;
+    margin: 40px 0 0 0;
+}
