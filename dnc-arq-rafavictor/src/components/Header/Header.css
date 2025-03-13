@@ -37,7 +37,7 @@ nav a:hover {
 
     nav{
         background-color: #1d1d1d;
-        border-left: 10pxsolid #333;
+        border-left: 10px solid #333;
         display: none;
         flex-direction: column;
         height: 100%;
@@ -84,3 +84,10 @@ nav a:hover {
         width: fit-content;
     }
 }
+
+@media (max-width: 568px) {
+    header {
+         padding: 10px;
+         margin-bottom: 20px;
+     }
+ }
